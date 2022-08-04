@@ -1,3 +1,6 @@
+//This code will deploy voting contract on Binance smart chain
+// interact with contract using etherjs
+
 var ethers = require('ethers');
 url='https://data-seed-prebsc-1-s1.binance.org:8545';
 var provider = new ethers.providers.JsonRpcProvider(url);
