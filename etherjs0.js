@@ -1,3 +1,6 @@
+// This code will deploy voting contract on local blockchain Ganache
+// Interact with the contract using etherjs
+
 var ethers = require('ethers');
 var provider = new ethers.providers.JsonRpcProvider();
 provider.listAccounts().then(result => console.log(result))
